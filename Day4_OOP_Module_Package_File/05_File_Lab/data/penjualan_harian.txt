@@ -1,0 +1,15 @@
+# tanggal;menu;qty;harga
+2026-07-01;Kopi Susu Aren;12;25000
+2026-07-01;Americano;8;22000
+2026-07-01;Croissant;15;18000
+
+2026-07-02;Kopi Susu Aren;14;25000
+2026-07-02;Matcha Latte;6;28000
+2026-07-02;Cheesecake;4;32000
+2026-07-03;Americano;10;22000
+2026-07-03;Kopi Susu Aren;9;25000
+2026-07-03;Croissant;11;18000
+# data hari Sabtu
+2026-07-04;Matcha Latte;13;28000
+2026-07-04;Cheesecake;7;32000
+2026-07-04;Kopi Susu Aren;20;25000

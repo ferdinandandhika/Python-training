@@ -1,0 +1,416 @@
+id_transaksi,tanggal,cabang,channel,menu,kategori,qty,harga,total,status_member,rating
+TRX00605,2026-04-13,Bandung,Dine In,Croissant,Makanan,4,18000,72000,Non Member,3.3
+TRX00890,2026-03-23,Jakarta,Online,Kopi Susu Aren,Kopi,1,25000,25000,Member,3.7
+TRX00267,2026-03-30,Bandung,Dine In,Matcha Latte,Non Kopi,1,28000,28000,Member,3.3
+TRX00978,2026-05-26,Medan,Dine In,Cheesecake,Makanan,,32000,64000,Non Member,4.5
+TRX00902,2026-04-17,Yogyakarta,Online,Americano,Kopi,2,22000,44000,Member,4.5
+TRX01135,2026-04-07,Jakarta,Online,Matcha Latte,Non Kopi,3,28000,-,Member,3.5
+TRX00819,06/02/2026,Surabaya,Dine In,Americano,Kopi,2,22000,44000,Non Member,4.3
+TRX00800,2026-04-07,Medan,Take Away,Cheesecake,Makanan,4,32000,128000,Member,4.3
+TRX00789,2026-01-10,Surabaya,Dine In,Cheesecake,Makanan,1,32000,32000,Non Member,3.1
+TRX00248,2026-05-11,Jakarta,Dine In,Kopi Susu Aren,Kopi,3,25000,-,Non Member,3.1
+TRX00903,2026-04-24,Surabaya,Dine In,Cheesecake,Makanan,,32000,32000,Non Member,5.0
+TRX00871,2026-04-03,Medan,Online,Matcha Latte,Non Kopi,2,28000,56000,Non Member,4.8
+TRX01149,2026-04-07,Surabaya,Online,Cheesecake,Makanan,1,32000,32000,Member,4.6
+TRX00830,2026-02-25,Surabaya,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,4.7
+TRX00521,2026-04-08,Yogyakarta,Dine In,Cappuccino,Kopi,5,27000,135000,Member,3.7
+TRX00573,2026-02-14,Bandung,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,3.5
+TRX00713,2026-05-12,Bandung,Online,Cheesecake,Makanan,4,32000,128000,Member,3.1
+TRX01194,2026-06-15,Bandung,Online,Americano,Kopi,1,22000,22000,Non Member,3.5
+TRX01161,2026-05-12,Yogyakarta,Take Away,Cheesecake,Makanan,1,32000,32000,Member,
+TRX00132,2026-05-31,Yogyakarta,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Member,4.6
+TRX00333,2026-06-15,Jakarta,Take Away,Cappuccino,Kopi,1,27000,27000,Non Member,4.6
+TRX00972,2026-06-21,surabaya ,Dine In,Cappuccino,Kopi,2,27000,54000,Member,3.7
+TRX01166,2026-04-27,Surabaya,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.1
+TRX00835,2026-04-25,Jakarta,Online,Cappuccino,Kopi,3,27000,81000,Member,3.6
+TRX00191,2026-01-20,Surabaya,Online,Americano,Kopi,1,22000,22000,Non Member,3.2
+TRX00240,13/04/2026,Bandung,Take Away,Cheesecake,Makanan,1,32000,32000,Non Member,3.5
+TRX01041,2026-04-12,Bandung,Dine In,Cheesecake,Makanan,2,32000,64000,Member,4.4
+TRX00490,2026-03-10,Yogyakarta,Online,Chocolate,Non Kopi,3,26000,78000,Non Member,4.8
+TRX01113,2026-04-01,Yogyakarta,Online,Cheesecake,Makanan,3,32000,96000,Member,4.0
+TRX00379,2026-05-14,Medan,Take Away,Americano,Kopi,1,22000,22000,Member,3.0
+TRX00960,2026-05-03,Bandung,Dine In,Chocolate,Non Kopi,2,26000,52000,Non Member,3.0
+TRX00989,2026-05-16,Jakarta,Dine In,Croissant,Makanan,4,18000,72000,Member,4.7
+TRX00361,2026-01-31,jakarta ,Take Away,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,3.4
+TRX00105,2026-02-13,Jakarta,Online,Americano,Kopi,2,22000,44000,Member,3.8
+TRX00574,2026-06-27,Medan,Dine In,Croissant,Makanan,2,18000,36000,Member,4.5
+TRX00102,2026-05-19,Medan,Online,Americano,Kopi,1,22000,22000,Member,4.5
+TRX00751,2026-06-11,Medan,Take Away,Cheesecake,Makanan,2,32000,64000,Non Member,4.1
+TRX01007,2026-01-18,Surabaya,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,4.9
+TRX00221,2026-06-14,Medan,Take Away,Americano,Kopi,3,22000,66000,Member,3.6
+TRX00391,2026-05-26,Jakarta,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,3.5
+TRX01115,2026-06-18,Yogyakarta,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Member,3.5
+TRX00778,2026-04-01,Bandung,Online,Croissant,Makanan,2,18000,36000,Member,
+TRX00030,2026-06-15,Medan,Dine In,Americano,Kopi,1,22000,22000,Non Member,4.7
+TRX00760,2026-05-05,Yogyakarta,Take Away,Kopi Susu Aren,Kopi,3,25000,75000,Non Member,4.3
+TRX00168,2026-01-30,Yogyakarta,Online,Americano,Kopi,1,22000,22000,Non Member,4.3
+TRX00534,2026-03-25,Surabaya,Take Away,Matcha Latte,Non Kopi,3,28000,84000,Non Member,3.0
+TRX00915,2026-01-01,Surabaya,Take Away,Chocolate,Non Kopi,2,26000,52000,Member,3.2
+TRX00508,2026-05-14,Jakarta,Take Away,Cappuccino,Kopi,3,27000,81000,Member,4.6
+TRX00140,2026-01-14,Medan,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,3.2
+TRX01137,2026-04-23,Surabaya,Take Away,Matcha Latte,Non Kopi,2,28000,56000,Non Member,4.9
+TRX00397,2026-04-02,Jakarta,Take Away,Croissant,Makanan,5,18000,90000,Member,3.7
+TRX01193,16/04/2026,Medan,Take Away,Croissant,Makanan,1,18000,18000,Non Member,3.2
+TRX00809,2026-06-08,Bandung,Take Away,Chocolate,Non Kopi,3,26000,78000,Non Member,3.5
+TRX00734,2026-06-16,medan ,Dine In,Chocolate,Non Kopi,1,26000,26000,Member,4.5
+TRX01038,2026-06-02,Yogyakarta,Online,Cappuccino,Kopi,,27000,54000,Member,4.6
+TRX00967,2026-05-04,medan ,Take Away,Cappuccino,Kopi,3,27000,81000,Member,4.4
+TRX01117,2026-04-18,Medan,Online,Croissant,Makanan,1,18000,18000,Member,3.3
+TRX00295,2026-03-05,Jakarta,Dine In,Chocolate,Non Kopi,2,26000,52000,Non Member,3.8
+TRX00017,2026-03-23,Bandung,Take Away,Matcha Latte,Non Kopi,4,28000,112000,Non Member,3.9
+TRX00654,2026-05-29,medan ,Take Away,Matcha Latte,Non Kopi,1,28000,28000,Member,3.5
+TRX00080,2026-03-23,Yogyakarta,Take Away,Cappuccino,Kopi,3,27000,81000,Member,4.1
+TRX00963,2026-03-08,Jakarta,Take Away,Croissant,Makanan,1,18000,18000,Non Member,4.1
+TRX00852,2026-01-01,Jakarta,Dine In,Chocolate,Non Kopi,5,26000,130000,Member,4.2
+TRX00095,2026-04-13,Bandung,Take Away,Cappuccino,Kopi,1,27000,27000,Member,
+TRX00703,2026-04-30,Bandung,Take Away,Cappuccino,Kopi,2,27000,54000,Member,4.8
+TRX00878,2026-01-07,Yogyakarta,Take Away,Matcha Latte,Non Kopi,2,28000,56000,Non Member,4.4
+TRX00928,2026-04-27,Surabaya,Dine In,Cheesecake,Makanan,4,32000,128000,Non Member,3.2
+TRX00290,2026-06-09,Yogyakarta,Take Away,Cheesecake,Makanan,4,32000,128000,Non Member,3.6
+TRX00912,2026-02-26,Jakarta,Take Away,Kopi Susu Aren,Kopi,5,25000,125000,Non Member,3.9
+TRX00957,2026-03-18,Bandung,Take Away,Americano,Kopi,3,22000,66000,Member,4.5
+TRX01143,2026-01-05,Bandung,Dine In,Cappuccino,Kopi,1,27000,27000,Member,3.5
+TRX00984,2026-02-19,Surabaya,Take Away,Americano,Kopi,2,22000,44000,Member,3.3
+TRX01000,2026-03-12,bandung ,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,4.2
+TRX01159,2026-03-09,Jakarta,Take Away,Cheesecake,Makanan,1,32000,32000,Non Member,3.9
+TRX00744,2026-01-08,Bandung,Take Away,Americano,Kopi,2,22000,44000,Member,4.1
+TRX01134,2026-01-09,Bandung,Take Away,Americano,Kopi,,22000,44000,Member,3.0
+TRX00987,2026-02-24,Yogyakarta,Dine In,Cappuccino,Kopi,1,27000,27000,Member,4.9
+TRX00078,2026-03-31,Medan,Take Away,Matcha Latte,Non Kopi,3,28000,84000,Member,3.3
+TRX00843,2026-03-22,Medan,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,4.7
+TRX00591,2026-03-10,surabaya ,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Member,4.8
+TRX00988,2026-06-21,Bandung,Dine In,Cappuccino,Kopi,2,27000,54000,Member,
+TRX00922,2026-02-23,Surabaya,Dine In,Croissant,Makanan,4,18000,72000,Member,4.9
+TRX01003,2026-06-13,medan ,Online,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.6
+TRX00936,2026-06-03,Surabaya,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.9
+TRX00611,2026-04-06,Surabaya,Take Away,Cappuccino,Kopi,1,27000,27000,Member,3.4
+TRX00087,2026-06-12,Surabaya,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Member,4.6
+TRX00482,2026-01-04,Bandung,Online,Cheesecake,Makanan,2,32000,64000,Member,3.7
+TRX01130,2026-03-14,Bandung,Dine In,Croissant,Makanan,2,18000,36000,Non Member,3.6
+TRX01062,2026-03-09,Yogyakarta,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.5
+TRX00977,2026-06-23,Jakarta,Dine In,Kopi Susu Aren,Kopi,4,25000,100000,Member,3.2
+TRX00815,2026-03-29,Yogyakarta,Dine In,Cappuccino,Kopi,5,27000,135000,Non Member,3.1
+TRX00948,2026-05-27,Medan,Online,Americano,Kopi,1,22000,22000,Member,3.3
+TRX00371,2026-04-12,Bandung,Online,Cappuccino,Kopi,4,27000,108000,Non Member,3.4
+TRX00023,2026-05-02,Medan,Online,Chocolate,Non Kopi,1,26000,26000,Non Member,3.2
+TRX01108,2026-02-15,Bandung,Dine In,Kopi Susu Aren,Kopi,5,25000,-,Non Member,4.2
+TRX00190,2026-04-09,Surabaya,Dine In,Cappuccino,Kopi,4,27000,108000,Member,3.4
+TRX00740,2026-01-31,Surabaya,Dine In,Croissant,Makanan,4,18000,72000,Non Member,3.5
+TRX01083,2026-02-16,Bandung,Take Away,Americano,Kopi,1,22000,22000,Member,4.5
+TRX00655,2026-01-23,surabaya ,Online,Americano,Kopi,1,22000,22000,Member,4.6
+TRX00849,2026-03-28,Medan,Online,Matcha Latte,Non Kopi,1,28000,28000,Non Member,4.5
+TRX00739,2026-05-09,Surabaya,Online,Cappuccino,Kopi,1,27000,27000,Non Member,4.6
+TRX00294,2026-04-15,Bandung,Take Away,Croissant,Makanan,1,18000,18000,Member,3.1
+TRX00288,2026-04-20,Jakarta,Dine In,Cappuccino,Kopi,,27000,54000,Non Member,4.9
+TRX00523,2026-02-03,Medan,Take Away,Americano,Kopi,2,22000,44000,Member,3.8
+TRX00735,2026-06-09,Yogyakarta,Take Away,Chocolate,Non Kopi,2,26000,52000,Non Member,3.9
+TRX00907,2026-03-26,Jakarta,Dine In,Cappuccino,Kopi,4,27000,108000,Non Member,3.3
+TRX01177,2026-05-07,Medan,Take Away,Cappuccino,Kopi,2,27000,54000,Non Member,3.3
+TRX00926,2026-03-16,Bandung,Dine In,Chocolate,Non Kopi,1,26000,26000,Non Member,4.6
+TRX00565,2026-05-21,Medan,Online,Americano,Kopi,1,22000,22000,Non Member,3.0
+TRX00480,2026-04-09,Bandung,Dine In,Cappuccino,Kopi,1,27000,27000,Member,5.0
+TRX01076,2026-02-15,Jakarta,Online,Cappuccino,Kopi,,27000,54000,Member,4.2
+TRX00450,2026-03-21,Yogyakarta,Take Away,Cheesecake,Makanan,1,32000,32000,Member,3.1
+TRX00420,2026-01-19,Yogyakarta,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,3.9
+TRX00256,2026-04-15,Medan,Dine In,Matcha Latte,Non Kopi,3,28000,84000,Member,5.0
+TRX01089,2026-01-16,Bandung,Take Away,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.4
+TRX00167,2026-02-10,Surabaya,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,5.0
+TRX00637,2026-05-17,Yogyakarta,Take Away,Croissant,Makanan,1,18000,18000,Non Member,3.6
+TRX00584,2026-05-29,Surabaya,Online,Kopi Susu Aren,Kopi,3,25000,75000,Member,4.5
+TRX00648,2026-06-30,Bandung,Dine In,Chocolate,Non Kopi,2,26000,52000,Non Member,3.6
+TRX00098,2026-01-20,Jakarta,Take Away,Chocolate,Non Kopi,4,26000,104000,Non Member,4.3
+TRX00339,2026-06-28,Yogyakarta,Dine In,Cappuccino,Kopi,1,27000,27000,Member,4.3
+TRX00869,2026-02-23,Surabaya,Online,Matcha Latte,Non Kopi,1,28000,28000,Member,5.0
+TRX00043,2026-01-17,Surabaya,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Member,3.1
+TRX00516,2026-02-16,Medan,Dine In,Americano,Kopi,4,22000,88000,Member,3.1
+TRX00104,2026-03-18,Surabaya,Online,Cheesecake,Makanan,1,32000,32000,Non Member,3.3
+TRX01070,2026-03-02,Medan,Take Away,Cheesecake,Makanan,1,32000,32000,Non Member,3.7
+TRX00359,2026-02-24,Medan,Dine In,Croissant,Makanan,3,18000,54000,Member,3.9
+TRX00253,2026-04-17,Jakarta,Take Away,Cheesecake,Makanan,3,32000,96000,Non Member,3.4
+TRX00195,2026-03-15,Medan,Online,Matcha Latte,Non Kopi,4,28000,112000,Non Member,3.4
+TRX00484,2026-05-03,Jakarta,Dine In,Kopi Susu Aren,Kopi,3,25000,75000,Non Member,4.5
+TRX01176,2026-01-11,Medan,Take Away,Matcha Latte,Non Kopi,2,28000,56000,Non Member,3.9
+TRX00149,2026-05-17,Surabaya,Online,Kopi Susu Aren,Kopi,5,25000,125000,Member,4.4
+TRX00370,2026-02-04,Jakarta,Dine In,Cappuccino,Kopi,2,27000,54000,Non Member,4.3
+TRX00908,2026-04-19,Jakarta,Dine In,Chocolate,Non Kopi,5,26000,130000,Non Member,4.4
+TRX00881,2026-06-24,Jakarta,Dine In,Croissant,Makanan,3,18000,-,Non Member,3.9
+TRX01132,2026-06-09,Bandung,Take Away,Croissant,Makanan,5,18000,90000,Non Member,4.1
+TRX00451,2026-01-24,Bandung,Online,Americano,Kopi,1,22000,22000,Non Member,3.8
+TRX00761,2026-03-20,Medan,Dine In,Croissant,Makanan,2,18000,36000,Non Member,4.3
+TRX00406,2026-04-22,Yogyakarta,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.5
+TRX00771,2026-05-13,medan ,Take Away,Croissant,Makanan,1,18000,18000,Member,3.7
+TRX00804,2026-02-25,Surabaya,Dine In,Cappuccino,Kopi,3,27000,81000,Non Member,4.5
+TRX00310,2026-06-20,Jakarta,Online,Kopi Susu Aren,Kopi,4,25000,100000,Non Member,3.3
+TRX00511,2026-02-08,medan ,Take Away,Croissant,Makanan,5,18000,90000,Member,3.5
+TRX00259,2026-02-11,Yogyakarta,Online,Chocolate,Non Kopi,1,26000,26000,Member,4.6
+TRX00266,2026-05-31,Jakarta,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,4.1
+TRX01017,2026-01-31,Yogyakarta,Take Away,Matcha Latte,Non Kopi,5,28000,140000,Member,4.6
+TRX00558,2026-06-07,Medan,Take Away,Cheesecake,Makanan,2,32000,64000,Non Member,3.9
+TRX00090,2026-02-13,medan ,Take Away,Croissant,Makanan,1,18000,18000,Member,3.2
+TRX00302,2026-04-30,Yogyakarta,Take Away,Cheesecake,Makanan,2,32000,64000,Non Member,3.4
+TRX00106,2026-06-09,Bandung,Take Away,Matcha Latte,Non Kopi,4,28000,112000,Member,4.0
+TRX00969,2026-01-06,Yogyakarta,Dine In,Cappuccino,Kopi,2,27000,-,Member,3.5
+TRX00493,2026-01-11,Jakarta,Online,Matcha Latte,Non Kopi,3,28000,84000,Non Member,4.6
+TRX00435,2026-03-09,Jakarta,Online,Chocolate,Non Kopi,2,26000,52000,Non Member,4.4
+TRX00330,2026-05-09,Surabaya,Take Away,Kopi Susu Aren,Kopi,3,25000,75000,Non Member,4.8
+TRX00738,2026-01-13,Surabaya,Take Away,Cappuccino,Kopi,2,27000,54000,Non Member,3.9
+TRX00803,2026-03-17,Bandung,Take Away,Croissant,Makanan,1,18000,18000,Non Member,3.2
+TRX00544,2026-06-13,Surabaya,Online,Matcha Latte,Non Kopi,4,28000,112000,Non Member,4.2
+TRX00649,2026-05-20,Medan,Dine In,Cappuccino,Kopi,1,27000,27000,Member,3.7
+TRX00153,2026-02-01,Surabaya,Take Away,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.7
+TRX00091,2026-03-11,Medan,Online,Matcha Latte,Non Kopi,1,28000,28000,Member,5.0
+TRX00875,2026-01-05,Jakarta,Online,Chocolate,Non Kopi,4,26000,104000,Non Member,
+TRX00620,2026-01-28,Surabaya,Take Away,Croissant,Makanan,4,18000,72000,Non Member,4.5
+TRX00898,2026-04-07,Yogyakarta,Take Away,Cheesecake,Makanan,2,32000,64000,Member,4.6
+TRX00792,2026-02-03,surabaya ,Take Away,Cappuccino,Kopi,1,27000,27000,Member,4.4
+TRX00074,2026-06-24,Medan,Take Away,Cheesecake,Makanan,2,32000,64000,Member,3.1
+TRX00165,2026-05-15,Surabaya,Dine In,Matcha Latte,Non Kopi,1,28000,28000,Non Member,3.7
+TRX00377,2026-06-29,Surabaya,Online,Americano,Kopi,1,22000,22000,Member,3.1
+TRX00509,2026-03-28,Yogyakarta,Dine In,Cheesecake,Makanan,3,32000,96000,Member,4.5
+TRX00413,2026-06-20,Yogyakarta,Online,Chocolate,Non Kopi,2,26000,52000,Non Member,3.5
+TRX00352,2026-05-07,Bandung,Take Away,Chocolate,Non Kopi,1,26000,-,Member,3.5
+TRX00459,2026-05-02,Jakarta,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.1
+TRX00236,06/05/2026,Medan,Dine In,Kopi Susu Aren,Kopi,3,25000,75000,Non Member,4.5
+TRX00135,2026-01-10,Medan,Dine In,Americano,Kopi,3,22000,66000,Non Member,4.1
+TRX00935,2026-03-13,Bandung,Online,Cheesecake,Makanan,2,32000,64000,Non Member,4.9
+TRX00425,2026-05-22,Medan,Dine In,Cappuccino,Kopi,2,27000,54000,Non Member,4.6
+TRX00861,2026-03-12,Surabaya,Online,Chocolate,Non Kopi,,26000,78000,Member,3.2
+TRX01016,2026-01-08,Jakarta,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,4.2
+TRX00096,2026-06-15,Medan,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.2
+TRX00686,2026-02-19,Medan,Online,Chocolate,Non Kopi,2,26000,52000,Member,4.5
+TRX01072,2026-06-01,Surabaya,Take Away,Croissant,Makanan,4,18000,72000,Non Member,4.3
+TRX00577,2026-01-25,Bandung,Dine In,Cheesecake,Makanan,5,32000,160000,Non Member,4.3
+TRX01106,2026-02-25,Yogyakarta,Online,Chocolate,Non Kopi,2,26000,52000,Non Member,4.1
+TRX00447,2026-03-02,Jakarta,Online,Matcha Latte,Non Kopi,,28000,84000,Non Member,4.7
+TRX00540,2026-03-11,Medan,Online,Matcha Latte,Non Kopi,2,28000,56000,Member,3.2
+TRX01133,2026-02-03,Bandung,Online,Croissant,Makanan,1,18000,18000,Member,3.0
+TRX00733,2026-05-19,Bandung,Dine In,Cappuccino,Kopi,2,27000,54000,Non Member,3.1
+TRX00781,2026-05-24,Surabaya,Online,Cappuccino,Kopi,3,27000,81000,Member,5.0
+TRX01148,2026-01-01,Bandung,Take Away,Matcha Latte,Non Kopi,3,28000,84000,Non Member,4.2
+TRX01184,2026-06-28,Bandung,Take Away,Cappuccino,Kopi,5,27000,135000,Member,4.3
+TRX00552,2026-01-30,Surabaya,Online,Cheesecake,Makanan,4,32000,128000,Non Member,4.5
+TRX00362,2026-04-14,Surabaya,Take Away,Matcha Latte,Non Kopi,3,28000,84000,Member,3.6
+TRX00847,2026-01-13,Jakarta,Take Away,Americano,Kopi,4,22000,88000,Member,4.5
+TRX00213,14/05/2026,Surabaya,Online,Cheesecake,Makanan,2,32000,64000,Member,3.1
+TRX00193,2026-04-18,Bandung,Dine In,Americano,Kopi,1,22000,22000,Member,5.0
+TRX00246,2026-06-04,Yogyakarta,Dine In,Cheesecake,Makanan,3,32000,96000,Non Member,4.6
+TRX00271,2026-01-14,Yogyakarta,Dine In,Matcha Latte,Non Kopi,1,28000,28000,Non Member,
+TRX01164,2026-03-27,Medan,Online,Chocolate,Non Kopi,2,26000,52000,Member,3.8
+TRX00146,2026-01-23,Yogyakarta,Online,Croissant,Makanan,2,18000,36000,Non Member,4.0
+TRX00645,2026-02-01,Medan,Take Away,Cheesecake,Makanan,1,32000,32000,Non Member,4.0
+TRX00060,2026-04-28,Yogyakarta,Online,Croissant,Makanan,2,18000,36000,Non Member,3.4
+TRX00953,2026-02-19,Bandung,Take Away,Chocolate,Non Kopi,1,26000,26000,Member,4.0
+TRX00855,2026-06-26,Jakarta,Online,Americano,Kopi,4,22000,88000,Non Member,4.8
+TRX00293,2026-01-02,Medan,Online,Matcha Latte,Non Kopi,1,28000,28000,Non Member,3.7
+TRX00183,2026-05-13,Surabaya,Dine In,Cappuccino,Kopi,5,27000,135000,Member,3.0
+TRX00627,2026-03-02,Bandung,Online,Cheesecake,Makanan,2,32000,64000,Non Member,4.5
+TRX00918,2026-01-03,Surabaya,Dine In,Matcha Latte,Non Kopi,3,28000,84000,Member,3.4
+TRX00110,2026-02-18,Yogyakarta,Online,Cheesecake,Makanan,3,32000,-,Non Member,3.4
+TRX00973,2026-03-09,Yogyakarta,Online,Matcha Latte,Non Kopi,2,28000,56000,Non Member,4.5
+TRX01114,2026-01-11,Surabaya,Take Away,Americano,Kopi,1,22000,22000,Member,4.9
+TRX01107,2026-05-22,Surabaya,Take Away,Cheesecake,Makanan,3,32000,96000,Non Member,3.3
+TRX00139,2026-03-08,Medan,Dine In,Kopi Susu Aren,Kopi,4,25000,100000,Member,4.0
+TRX00405,2026-02-18,Medan,Take Away,Matcha Latte,Non Kopi,1,28000,28000,Non Member,3.1
+TRX00296,2026-03-27,Medan,Take Away,Americano,Kopi,3,22000,66000,Member,3.2
+TRX01031,2026-01-08,Surabaya,Dine In,Cheesecake,Makanan,3,32000,96000,Non Member,
+TRX00679,2026-02-03,yogyakarta ,Take Away,Americano,Kopi,2,22000,44000,Non Member,4.2
+TRX00862,2026-06-08,Medan,Take Away,Matcha Latte,Non Kopi,2,28000,56000,Member,3.7
+TRX00189,2026-03-17,Bandung,Dine In,Chocolate,Non Kopi,5,26000,130000,Non Member,3.9
+TRX00917,2026-06-06,Surabaya,Take Away,Cappuccino,Kopi,1,27000,27000,Member,4.3
+TRX00514,2026-04-06,Jakarta,Online,Cappuccino,Kopi,2,27000,54000,Non Member,4.8
+TRX00644,2026-04-29,Bandung,Online,Kopi Susu Aren,Kopi,5,25000,125000,Member,4.3
+TRX00204,2026-02-19,Bandung,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,4.2
+TRX00929,2026-06-30,Yogyakarta,Dine In,Kopi Susu Aren,Kopi,2,25000,50000,Member,3.7
+TRX00433,2026-06-19,Jakarta,Take Away,Americano,Kopi,5,22000,110000,Member,3.2
+TRX00244,2026-03-31,Jakarta,Dine In,Americano,Kopi,3,22000,66000,Member,4.8
+TRX00227,2026-03-16,Bandung,Take Away,Croissant,Makanan,1,18000,18000,Non Member,3.7
+TRX00202,2026-02-26,bandung ,Take Away,Americano,Kopi,1,22000,22000,Member,4.6
+TRX00453,2026-05-25,Jakarta,Online,Croissant,Makanan,3,18000,54000,Member,4.1
+TRX00894,2026-02-18,Bandung,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.6
+TRX00704,2026-02-21,Yogyakarta,Take Away,Croissant,Makanan,2,18000,36000,Non Member,3.7
+TRX00014,2026-04-13,Surabaya,Dine In,Matcha Latte,Non Kopi,1,28000,28000,Member,3.3
+TRX01048,2026-06-02,Yogyakarta,Dine In,Croissant,Makanan,1,18000,18000,Non Member,3.9
+TRX00854,2026-02-25,Bandung,Dine In,Matcha Latte,Non Kopi,3,28000,84000,Member,4.4
+TRX00643,2026-05-09,Yogyakarta,Dine In,Cappuccino,Kopi,2,27000,54000,Member,4.5
+TRX00793,2026-03-23,Yogyakarta,Dine In,Cappuccino,Kopi,2,27000,54000,Member,3.7
+TRX00325,2026-06-06,Bandung,Online,Cheesecake,Makanan,3,32000,96000,Member,3.6
+TRX00386,2026-06-17,Jakarta,Take Away,Americano,Kopi,2,22000,44000,Member,3.6
+TRX01053,2026-04-18,Medan,Online,Matcha Latte,Non Kopi,2,28000,56000,Member,4.4
+TRX00526,2026-03-03,Medan,Dine In,Croissant,Makanan,5,18000,90000,Non Member,4.6
+TRX00418,2026-06-18,Yogyakarta,Dine In,Cheesecake,Makanan,1,32000,32000,Non Member,4.2
+TRX00124,2026-03-07,Bandung,Online,Kopi Susu Aren,Kopi,5,25000,125000,Member,4.5
+TRX00200,2026-06-26,Bandung,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,3.8
+TRX00608,2026-06-23,Yogyakarta,Take Away,Matcha Latte,Non Kopi,2,28000,-,Member,3.6
+TRX00553,2026-06-25,Bandung,Take Away,Americano,Kopi,1,22000,22000,Non Member,3.5
+TRX00056,2026-06-16,Medan,Take Away,Cheesecake,Makanan,5,32000,160000,Non Member,4.3
+TRX00175,2026-05-02,bandung ,Take Away,Cappuccino,Kopi,3,27000,81000,Member,3.9
+TRX00445,2026-01-26,Jakarta,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.2
+TRX00423,2026-04-30,Jakarta,Dine In,Cappuccino,Kopi,2,27000,54000,Non Member,
+TRX00412,2026-06-13,Surabaya,Dine In,Cappuccino,Kopi,2,27000,54000,Member,3.2
+TRX00283,2026-02-08,Yogyakarta,Take Away,Cappuccino,Kopi,1,27000,27000,Non Member,4.7
+TRX00555,2026-05-07,Medan,Dine In,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,4.6
+TRX01005,2026-02-01,Jakarta,Online,Kopi Susu Aren,Kopi,,25000,25000,Non Member,4.1
+TRX00411,2026-05-02,Bandung,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,3.0
+TRX00909,2026-06-02,Jakarta,Online,Matcha Latte,Non Kopi,1,28000,28000,Member,4.9
+TRX00249,2026-02-02,Bandung,Online,Matcha Latte,Non Kopi,2,28000,56000,Non Member,3.2
+TRX00368,2026-06-28,Yogyakarta,Take Away,Chocolate,Non Kopi,5,26000,130000,Non Member,3.1
+TRX01098,2026-05-07,Yogyakarta,Take Away,Matcha Latte,Non Kopi,5,28000,140000,Non Member,3.8
+TRX00220,2026-01-03,Medan,Take Away,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,3.3
+TRX00673,2026-06-30,Bandung,Online,Cappuccino,Kopi,,27000,27000,Non Member,4.4
+TRX00160,2026-03-19,Jakarta,Take Away,Kopi Susu Aren,Kopi,,25000,75000,Member,4.7
+TRX00242,2026-01-13,Jakarta,Dine In,Cheesecake,Makanan,1,32000,32000,Member,3.6
+TRX00109,2026-06-30,Surabaya,Take Away,Croissant,Makanan,3,18000,54000,Member,3.3
+TRX00464,2026-06-06,Jakarta,Dine In,Cheesecake,Makanan,3,32000,96000,Non Member,3.7
+TRX00291,2026-06-03,Bandung,Dine In,Cappuccino,Kopi,3,27000,81000,Non Member,3.4
+TRX01119,2026-04-03,Medan,Dine In,Cappuccino,Kopi,4,27000,108000,Non Member,4.6
+TRX00844,2026-03-07,Surabaya,Dine In,Chocolate,Non Kopi,3,26000,78000,Member,3.6
+TRX00282,13/02/2026,Medan,Online,Cappuccino,Kopi,3,27000,81000,Non Member,3.6
+TRX00631,2026-05-07,Jakarta,Online,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,3.3
+TRX00934,2026-06-17,Yogyakarta,Dine In,Croissant,Makanan,1,18000,18000,Member,4.0
+TRX00122,2026-04-09,Medan,Take Away,Cheesecake,Makanan,2,32000,-,Non Member,4.1
+TRX00152,2026-01-06,Jakarta,Take Away,Matcha Latte,Non Kopi,2,28000,56000,Member,3.9
+TRX00671,2026-04-05,Yogyakarta,Dine In,Cappuccino,Kopi,2,27000,54000,Non Member,4.8
+TRX00628,2026-05-02,Medan,Take Away,Cheesecake,Makanan,1,32000,32000,Member,3.6
+TRX00700,2026-03-06,Bandung,Dine In,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,4.2
+TRX00365,2026-01-04,Bandung,Online,Cappuccino,Kopi,1,27000,27000,Non Member,3.6
+TRX00857,01/05/2026,Yogyakarta,Take Away,Chocolate,Non Kopi,3,26000,78000,Non Member,4.8
+TRX01034,2026-02-14,Surabaya,Dine In,Matcha Latte,Non Kopi,1,28000,28000,Non Member,3.1
+TRX00410,2026-01-25,Bandung,Online,Chocolate,Non Kopi,4,26000,104000,Member,3.4
+TRX00066,2026-06-01,Jakarta,Take Away,Croissant,Makanan,3,18000,54000,Non Member,4.1
+TRX01126,2026-03-11,Bandung,Dine In,Kopi Susu Aren,Kopi,3,25000,75000,Non Member,4.9
+TRX00409,21/06/2026,Jakarta,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Non Member,3.5
+TRX00564,2026-03-09,Bandung,Online,Cheesecake,Makanan,2,32000,64000,Non Member,4.3
+TRX01025,2026-04-04,Surabaya,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,4.7
+TRX00038,2026-05-27,bandung ,Online,Cheesecake,Makanan,2,32000,64000,Non Member,4.1
+TRX00245,2026-02-05,Medan,Online,Matcha Latte,Non Kopi,2,28000,56000,Member,4.6
+TRX01060,2026-03-29,Surabaya,Take Away,Americano,Kopi,2,22000,44000,Non Member,3.4
+TRX00494,2026-03-24,Bandung,Online,Cheesecake,Makanan,1,32000,32000,Member,3.1
+TRX00996,2026-02-27,Surabaya,Online,Cheesecake,Makanan,2,32000,64000,Member,3.5
+TRX01110,2026-04-29,Surabaya,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,4.4
+TRX00299,2026-01-05,Yogyakarta,Online,Kopi Susu Aren,Kopi,2,25000,50000,Member,5.0
+TRX00229,2026-04-18,Surabaya,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.0
+TRX00264,2026-04-22,Yogyakarta,Online,Croissant,Makanan,4,18000,-,Member,4.8
+TRX00925,2026-05-21,Medan,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,4.1
+TRX00024,2026-06-21,Medan,Take Away,Americano,Kopi,4,22000,88000,Non Member,3.8
+TRX00601,2026-01-28,Jakarta,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,4.7
+TRX00093,2026-03-07,Surabaya,Dine In,Matcha Latte,Non Kopi,4,28000,112000,Non Member,3.3
+TRX01084,2026-01-28,Surabaya,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,4.9
+TRX00456,2026-01-23,Medan,Dine In,Americano,Kopi,2,22000,44000,Member,3.5
+TRX00865,2026-01-16,Yogyakarta,Dine In,Americano,Kopi,4,22000,88000,Non Member,3.4
+TRX01150,2026-04-05,Yogyakarta,Online,Croissant,Makanan,1,18000,18000,Member,4.6
+TRX00307,2026-02-25,Yogyakarta,Online,Americano,Kopi,1,22000,22000,Non Member,4.0
+TRX00414,2026-06-19,Bandung,Take Away,Americano,Kopi,5,22000,110000,Member,3.8
+TRX00863,2026-05-19,Bandung,Dine In,Chocolate,Non Kopi,2,26000,52000,Member,4.5
+TRX00346,2026-03-27,Jakarta,Online,Cheesecake,Makanan,2,32000,64000,Non Member,4.8
+TRX00261,2026-06-15,Medan,Online,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,3.0
+TRX00321,2026-01-04,Medan,Online,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,
+TRX00840,2026-01-23,Bandung,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,4.6
+TRX00810,2026-04-02,Bandung,Dine In,Matcha Latte,Non Kopi,1,28000,28000,Non Member,4.4
+TRX00219,2026-04-19,Surabaya,Dine In,Americano,Kopi,2,22000,44000,Non Member,4.9
+TRX00562,2026-02-14,Jakarta,Dine In,Chocolate,Non Kopi,3,26000,78000,Member,3.2
+TRX01131,2026-06-12,Yogyakarta,Online,Kopi Susu Aren,Kopi,4,25000,100000,Non Member,4.4
+TRX00725,2026-05-27,Yogyakarta,Take Away,Cheesecake,Makanan,1,32000,32000,Non Member,4.5
+TRX00197,2026-01-13,Medan,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,3.9
+TRX00041,2026-01-16,Jakarta,Online,Cheesecake,Makanan,1,32000,32000,Member,4.0
+TRX00476,2026-01-27,Yogyakarta,Take Away,Cheesecake,Makanan,2,32000,64000,Member,3.1
+TRX00284,2026-01-19,Medan,Online,Croissant,Makanan,3,18000,54000,Non Member,3.6
+TRX00421,2026-05-20,Medan,Online,Chocolate,Non Kopi,3,26000,78000,Non Member,5.0
+TRX00749,2026-06-07,Surabaya,Dine In,Americano,Kopi,3,22000,66000,Member,3.7
+TRX00398,2026-06-23,Medan,Online,Croissant,Makanan,1,18000,18000,Non Member,4.1
+TRX00543,2026-04-13,Yogyakarta,Online,Matcha Latte,Non Kopi,1,28000,28000,Non Member,5.0
+TRX00049,2026-01-06,Jakarta,Online,Chocolate,Non Kopi,5,26000,130000,Member,4.4
+TRX00952,2026-01-23,Jakarta,Dine In,Chocolate,Non Kopi,3,26000,78000,Member,4.7
+TRX00354,2026-02-21,Bandung,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,
+TRX00642,14/01/2026,Bandung,Dine In,Croissant,Makanan,1,18000,18000,Member,3.9
+TRX01087,2026-04-16,Medan,Online,Americano,Kopi,1,22000,22000,Non Member,3.3
+TRX00775,2026-06-16,Medan,Dine In,Americano,Kopi,3,22000,66000,Member,3.2
+TRX00821,2026-04-02,Surabaya,Dine In,Cappuccino,Kopi,2,27000,54000,Non Member,
+TRX01092,2026-04-18,Bandung,Online,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.6
+TRX00801,2026-01-10,Bandung,Take Away,Croissant,Makanan,1,18000,18000,Non Member,3.3
+TRX00372,2026-06-09,Surabaya,Online,Cappuccino,Kopi,2,27000,54000,Member,3.4
+TRX00773,2026-04-19,Surabaya,Dine In,Cheesecake,Makanan,3,32000,96000,Non Member,4.3
+TRX01022,2026-01-24,Surabaya,Online,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,3.9
+TRX00201,2026-04-03,Bandung,Take Away,Matcha Latte,Non Kopi,5,28000,140000,Member,3.6
+TRX00513,2026-02-13,Medan,Online,Cappuccino,Kopi,2,27000,-,Non Member,4.0
+TRX00807,2026-01-18,Jakarta,Online,Americano,Kopi,3,22000,66000,Member,3.1
+TRX00683,2026-04-06,Jakarta,Online,Cheesecake,Makanan,1,32000,32000,Member,4.6
+TRX00504,2026-04-06,Bandung,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Non Member,3.8
+TRX00474,2026-03-16,Surabaya,Online,Cheesecake,Makanan,,32000,32000,Member,5.0
+TRX00680,2026-04-08,Surabaya,Online,Cappuccino,Kopi,2,27000,54000,Non Member,3.6
+TRX00944,2026-03-13,Jakarta,Take Away,Cheesecake,Makanan,3,32000,96000,Non Member,3.8
+TRX00556,2026-06-07,Jakarta,Take Away,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.2
+TRX00275,2026-01-11,Bandung,Dine In,Americano,Kopi,4,22000,88000,Member,3.7
+TRX00930,2026-03-05,Surabaya,Dine In,Cappuccino,Kopi,3,27000,81000,Non Member,4.4
+TRX01136,2026-04-01,Yogyakarta,Take Away,Croissant,Makanan,3,18000,54000,Member,4.7
+TRX00765,2026-01-30,Jakarta,Dine In,Americano,Kopi,1,22000,22000,Member,3.6
+TRX00326,2026-06-04,Bandung,Take Away,Cappuccino,Kopi,1,27000,27000,Member,3.4
+TRX00786,2026-01-23,Bandung,Take Away,Kopi Susu Aren,Kopi,4,25000,100000,Member,3.7
+TRX00839,2026-02-13,medan ,Online,Cappuccino,Kopi,1,27000,27000,Non Member,4.0
+TRX00505,2026-03-28,Jakarta,Take Away,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,4.8
+TRX00230,2026-02-03,Medan,Take Away,Americano,Kopi,4,22000,88000,Member,3.5
+TRX00402,2026-04-07,Surabaya,Take Away,Matcha Latte,Non Kopi,5,28000,140000,Non Member,4.2
+TRX00050,2026-01-29,Bandung,Dine In,Americano,Kopi,2,22000,44000,Member,4.0
+TRX00304,2026-01-22,Surabaya,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,3.6
+TRX00280,2026-01-30,Jakarta,Dine In,Croissant,Makanan,1,18000,18000,Non Member,3.4
+TRX00350,2026-03-28,Surabaya,Take Away,Matcha Latte,Non Kopi,2,28000,56000,Non Member,4.3
+TRX00941,2026-06-14,Jakarta,Dine In,Kopi Susu Aren,Kopi,3,25000,75000,Non Member,3.3
+TRX00606,2026-05-08,Medan,Take Away,Cheesecake,Makanan,2,32000,64000,Member,4.3
+TRX00185,2026-04-14,Yogyakarta,Online,Croissant,Makanan,2,18000,36000,Non Member,4.4
+TRX01056,2026-03-30,Bandung,Dine In,Matcha Latte,Non Kopi,,28000,56000,Non Member,3.4
+TRX00689,2026-02-24,Yogyakarta,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Non Member,4.1
+TRX01058,2026-03-01,Bandung,Take Away,Americano,Kopi,2,22000,44000,Non Member,4.5
+TRX00802,2026-05-14,Jakarta,Online,Matcha Latte,Non Kopi,,28000,28000,Member,3.1
+TRX00335,2026-06-15,Bandung,Online,Chocolate,Non Kopi,2,26000,52000,Non Member,4.3
+TRX00708,2026-06-12,Yogyakarta,Take Away,Matcha Latte,Non Kopi,,28000,28000,Member,3.9
+TRX00458,2026-03-28,Medan,Online,Cheesecake,Makanan,2,32000,64000,Member,4.3
+TRX00254,2026-05-21,Surabaya,Dine In,Croissant,Makanan,1,18000,18000,Non Member,4.8
+TRX00697,2026-01-20,Surabaya,Take Away,Americano,Kopi,1,22000,22000,Non Member,3.8
+TRX00126,2026-04-30,Jakarta,Online,Croissant,Makanan,1,18000,18000,Non Member,3.8
+TRX00837,2026-05-08,Bandung,Take Away,Cappuccino,Kopi,2,27000,54000,Member,4.6
+TRX01125,2026-06-22,Yogyakarta,Dine In,Americano,Kopi,2,22000,44000,Member,4.1
+TRX00940,2026-01-17,Surabaya,Dine In,Cheesecake,Makanan,2,32000,64000,Member,4.9
+TRX00429,2026-03-04,Surabaya,Dine In,Chocolate,Non Kopi,4,26000,104000,Non Member,3.2
+TRX01118,2026-02-12,Yogyakarta,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,4.3
+TRX00082,2026-05-28,Yogyakarta,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Non Member,
+TRX00550,2026-01-30,Yogyakarta,Dine In,Cheesecake,Makanan,1,32000,-,Non Member,3.9
+TRX00968,2026-05-09,Yogyakarta,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Non Member,3.3
+TRX00728,2026-02-01,Surabaya,Online,Croissant,Makanan,1,18000,18000,Non Member,3.5
+TRX00868,2026-04-20,Bandung,Online,Americano,Kopi,1,22000,22000,Member,4.5
+TRX00503,2026-05-09,Yogyakarta,Dine In,Cappuccino,Kopi,3,27000,81000,Member,3.4
+TRX00235,2026-01-05,Surabaya,Online,Croissant,Makanan,1,18000,18000,Member,3.0
+TRX00619,2026-05-31,Bandung,Online,Americano,Kopi,2,22000,44000,Non Member,3.3
+TRX00085,2026-05-24,Surabaya,Online,Croissant,Makanan,1,18000,18000,Non Member,4.7
+TRX00634,2026-04-29,Jakarta,Take Away,Americano,Kopi,3,22000,66000,Non Member,3.6
+TRX01047,2026-04-12,Jakarta,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,3.7
+TRX00663,2026-02-01,Surabaya,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Non Member,3.8
+TRX00538,2026-01-25,Surabaya,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Non Member,3.6
+TRX01171,2026-06-21,Bandung,Take Away,Cappuccino,Kopi,3,27000,81000,Member,3.3
+TRX00214,23/06/2026,Yogyakarta,Online,Chocolate,Non Kopi,3,26000,78000,Non Member,3.1
+TRX01183,2026-02-22,Yogyakarta,Take Away,Americano,Kopi,5,22000,110000,Member,3.7
+TRX01185,2026-04-18,Medan,Online,Kopi Susu Aren,Kopi,1,25000,25000,Member,3.7
+TRX00956,2026-01-06,yogyakarta ,Online,Cappuccino,Kopi,1,27000,27000,Non Member,4.0
+TRX00119,2026-06-21,Surabaya,Online,Chocolate,Non Kopi,,26000,26000,Member,3.9
+TRX00783,2026-02-07,Jakarta,Dine In,Cappuccino,Kopi,1,27000,27000,Member,3.5
+TRX00488,2026-01-10,Medan,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.3
+TRX00314,2026-03-08,Bandung,Dine In,Cappuccino,Kopi,1,27000,27000,Non Member,3.7
+TRX00241,2026-01-22,Bandung,Dine In,Kopi Susu Aren,Kopi,1,25000,25000,Member,4.9
+TRX01019,2026-04-26,Medan,Online,Kopi Susu Aren,Kopi,4,25000,100000,Non Member,3.1
+TRX00222,2026-04-21,Yogyakarta,Online,Cappuccino,Kopi,2,27000,54000,Non Member,3.4
+TRX00454,2026-03-26,Bandung,Dine In,Cheesecake,Makanan,1,32000,32000,Non Member,3.8
+TRX00705,2026-05-02,Yogyakarta,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Member,4.1
+TRX01027,2026-06-25,Bandung,Online,Croissant,Makanan,1,18000,18000,Non Member,4.9
+TRX00488,2026-01-10,Medan,Take Away,Croissant,Makanan,2,18000,36000,Non Member,4.3
+TRX00124,2026-03-07,Bandung,Online,Kopi Susu Aren,Kopi,5,25000,125000,Member,4.5
+TRX00857,01/05/2026,Yogyakarta,Take Away,Chocolate,Non Kopi,3,26000,78000,Non Member,4.8
+TRX00167,2026-02-10,Surabaya,Dine In,Matcha Latte,Non Kopi,2,28000,56000,Member,5.0
+TRX00861,2026-03-12,Surabaya,Online,Chocolate,Non Kopi,,26000,78000,Member,3.2
+TRX00637,2026-05-17,Yogyakarta,Take Away,Croissant,Makanan,1,18000,18000,Non Member,3.6
+TRX00454,2026-03-26,Bandung,Dine In,Cheesecake,Makanan,1,32000,32000,Non Member,3.8
+TRX00840,2026-01-23,Bandung,Take Away,Chocolate,Non Kopi,1,26000,26000,Non Member,4.6
+TRX00881,2026-06-24,Jakarta,Dine In,Croissant,Makanan,3,18000,-,Non Member,3.9
+TRX00605,2026-04-13,Bandung,Dine In,Croissant,Makanan,4,18000,72000,Non Member,3.3
+TRX00135,2026-01-10,Medan,Dine In,Americano,Kopi,3,22000,66000,Non Member,4.1
+TRX00781,2026-05-24,Surabaya,Online,Cappuccino,Kopi,3,27000,81000,Member,5.0
+TRX00295,2026-03-05,Jakarta,Dine In,Chocolate,Non Kopi,2,26000,52000,Non Member,3.8
+TRX00705,2026-05-02,Yogyakarta,Take Away,Kopi Susu Aren,Kopi,2,25000,50000,Member,4.1
+TRX01087,2026-04-16,Medan,Online,Americano,Kopi,1,22000,22000,Non Member,3.3

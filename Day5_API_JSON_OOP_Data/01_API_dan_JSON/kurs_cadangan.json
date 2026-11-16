@@ -1,0 +1,12 @@
+{
+  "result": "success",
+  "base_code": "IDR",
+  "time_last_update_utc": "contoh data cadangan",
+  "rates": {
+    "IDR": 1,
+    "USD": 6.15e-05,
+    "SGD": 7.92e-05,
+    "JPY": 0.00915,
+    "EUR": 5.66e-05
+  }
+}
