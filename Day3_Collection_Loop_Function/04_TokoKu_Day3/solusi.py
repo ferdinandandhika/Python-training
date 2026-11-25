@@ -21,64 +21,68 @@ def tampilkan_menu():
 
 
 def tambah_ke_keranjang(keranjang, kode, qty):
-    for item in keranjang:
-        if item["kode"] == kode:
-            item["qty"] += qty
-            return
     info = MENU[kode]
-    keranjang.append({"kode": kode, "nama": info["nama"], "harga": info["harga"], "qty": qty})
+    barang = {"nama": info["nama"], "harga": info["harga"], "qty": qty}
+    keranjang.append(barang)
 
 
-def hitung_total(keranjang, member=False):
-    subtotal = sum(i["harga"] * i["qty"] for i in keranjang)
-    persen = 0.15 if subtotal >= 200_000 else 0.10 if subtotal >= 100_000 else 0.0
-    if member:
-        persen += 0.05
-    diskon = subtotal * persen
-    pajak = (subtotal - diskon) * PAJAK
-    return {"subtotal": subtotal, "persen": persen, "diskon": diskon, "pajak": pajak,
-            "total": subtotal - diskon + pajak}
+def cetak_struk(keranjang):
+    subtotal = 0
 
-
-def cetak_struk(keranjang, r):
-    print("=" * LEBAR)
+    print("\n" + "=" * LEBAR)
     print("STRUK TOKOKU".center(LEBAR))
     print("=" * LEBAR)
-    for i in keranjang:
-        print(f"{i['nama']:<16} x{i['qty']:<3} {rupiah(i['harga'] * i['qty']):>15}")
+
+    for barang in keranjang:
+        total_barang = barang["harga"] * barang["qty"]
+        subtotal += total_barang
+        print(f"{barang['nama']:<20} x{barang['qty']:<3} {rupiah(total_barang):>12}")
+
+    if subtotal >= 200_000:
+        persen_diskon = 0.15
+    elif subtotal >= 100_000:
+        persen_diskon = 0.10
+    else:
+        persen_diskon = 0
+
+    diskon = subtotal * persen_diskon
+    setelah_diskon = subtotal - diskon
+    pajak = setelah_diskon * PAJAK
+    total = setelah_diskon + pajak
+
     print("-" * LEBAR)
-    print(f"{'Subtotal':<20}{rupiah(r['subtotal']):>18}")
-    print(f"{'Diskon ' + format(r['persen'], '.0%'):<20}{'-' + rupiah(r['diskon']):>18}")
-    print(f"{'Pajak 11%':<20}{rupiah(r['pajak']):>18}")
-    print(f"{'TOTAL':<20}{rupiah(r['total']):>18}")
+    print(f"Subtotal     : {rupiah(subtotal)}")
+    print(f"Diskon       : -{rupiah(diskon)}")
+    print(f"Pajak (11%)  : {rupiah(pajak)}")
+    print(f"TOTAL BAYAR  : {rupiah(total)}")
     print("=" * LEBAR)
 
 
-def main():
-    keranjang = []
-    tampilkan_menu()
-    while True:
-        kode = input("Kode menu (atau selesai): ").strip().upper()
-        if kode == "SELESAI":
-            break
-        if kode not in MENU:
-            print("  Kode tidak ada di menu.")
-            continue
-        try:
-            qty = int(input("Jumlah: "))
-        except ValueError:
-            print("  Jumlah harus angka.")
-            continue
-        if qty <= 0:
-            print("  Jumlah harus lebih dari nol.")
-            continue
-        tambah_ke_keranjang(keranjang, kode, qty)
-    if not keranjang:
-        print("Keranjang kosong, transaksi dibatalkan.")
-        return
-    member = input("Member? (y/n): ").strip().lower() == "y"
-    cetak_struk(keranjang, hitung_total(keranjang, member))
+keranjang = []
+tampilkan_menu()
 
+while True:
+    kode = input("\nKode barang (atau selesai): ").strip().upper()
+    if kode == "SELESAI":
+        break
 
-if __name__ == "__main__":
-    main()
+    if kode not in MENU:
+        print("Kode barang tidak ditemukan.")
+        continue
+
+    try:
+        qty = int(input("Jumlah: "))
+    except ValueError:
+        print("Jumlah harus berupa angka bulat.")
+        continue
+
+    if qty <= 0:
+        print("Jumlah harus lebih dari nol.")
+        continue
+
+    tambah_ke_keranjang(keranjang, kode, qty)
+
+if keranjang:
+    cetak_struk(keranjang)
+else:
+    print("Keranjang kosong. Transaksi dibatalkan.")

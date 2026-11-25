@@ -1,5 +1,6 @@
 # TokoKu Day 3 - Keranjang Belanja
 PAJAK = 0.11
+LEBAR = 38
 MENU = {
     "K01": {"nama": "Kopi Susu Aren", "harga": 25000},
     "K02": {"nama": "Americano", "harga": 22000},
@@ -14,18 +15,28 @@ def rupiah(angka):
 
 
 def tampilkan_menu():
-    pass  # TODO 1
+    # TODO 1: gunakan for untuk menampilkan kode, nama, dan harga dari MENU
+    pass
 
 
 def tambah_ke_keranjang(keranjang, kode, qty):
-    pass  # TODO 2: gabungkan qty bila kode sudah ada
+    # TODO 2: ambil info barang dari MENU dan tambahkan ke keranjang
+    pass
 
 
-def hitung_total(keranjang, member=False):
-    pass  # TODO 3: return dict subtotal, persen, diskon, pajak, total
+def cetak_struk(keranjang):
+    # TODO 3: gunakan for untuk menampilkan barang dan menghitung subtotal
+    # TODO 4: tentukan diskon dengan if/elif, lalu hitung pajak dan total
+    # TODO 5: tampilkan ringkasan pembayaran
+    pass
 
 
-def cetak_struk(keranjang, ringkasan):
-    pass  # TODO 4
+keranjang = []
+tampilkan_menu()
 
-# TODO 5: program utama dengan while loop sampai kasir mengetik "selesai"
+# TODO 6: gunakan while untuk meminta kode dan jumlah sampai kode "selesai"
+#         kode tidak valid atau jumlah tidak valid: tampilkan pesan
+#         kode valid dan jumlah positif: panggil tambah_ke_keranjang()
+
+# TODO 7: jika keranjang berisi barang, panggil cetak_struk()
+#         jika kosong, tampilkan pesan transaksi dibatalkan

@@ -1,18 +1,13 @@
-# Solusi 2.3 - Batu Kertas Gunting (terbaik dari 3)
+# Solusi 2.3 - Batu Kertas Gunting (satu ronde)
 import random
 
 pilihan = ["batu", "kertas", "gunting"]
-singkatan = {"b": "batu", "k": "kertas", "g": "gunting"}
-skor_pemain = skor_komputer = 0
-ronde = 1
-while ronde <= 3 and skor_pemain < 2 and skor_komputer < 2:
-    print(f"\n--- Ronde {ronde} ---")
-    pemain = input("Pilih batu/kertas/gunting (b/k/g): ").strip().lower()
-    pemain = singkatan.get(pemain, pemain)
-    if pemain not in pilihan:
-        print("Pilihan tidak valid, ulangi ronde ini.")
-        continue
-    komputer = random.choice(pilihan)
+komputer = random.choice(pilihan)
+pemain = input("Pilih batu/kertas/gunting: ").strip().lower()
+
+if pemain not in pilihan:
+    print("Pilihan tidak valid.")
+else:
     print(f"Kamu: {pemain} | Komputer: {komputer}")
     if pemain == komputer:
         print("SERI")
@@ -20,9 +15,5 @@ while ronde <= 3 and skor_pemain < 2 and skor_komputer < 2:
          (pemain == "gunting" and komputer == "kertas") or \
          (pemain == "kertas" and komputer == "batu"):
         print("MENANG")
-        skor_pemain += 1
     else:
         print("KALAH")
-        skor_komputer += 1
-    ronde += 1
-print(f"\nSkor akhir  Kamu {skor_pemain} - {skor_komputer} Komputer")

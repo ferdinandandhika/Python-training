@@ -1,15 +1,10 @@
-# Latihan 2.2 - Error Handling
+# Latihan 2.2 - Memeriksa Jumlah Barang
 
+jumlah_teks = input("Jumlah barang: ")
 
-def minta_angka(pesan):
-    # TODO 1: gunakan while True
-    # TODO 2: di dalam try, ubah input menjadi int
-    # TODO 3: except ValueError -> tampilkan "Harus angka, coba lagi."
-    # TODO 4: bila angka <= 0 tampilkan pesan dan ulangi
-    # TODO 5: return angka bila valid
-    pass
-
-
-total = minta_angka("Total tagihan : ")
-orang = minta_angka("Jumlah orang  : ")
-# TODO 6: hitung per orang dengan try/except ZeroDivisionError
+# TODO 1: gunakan try untuk mengubah jumlah_teks menjadi int
+# TODO 2: tangani ValueError jika jumlah_teks bukan angka bulat
+# TODO 3: jika berhasil dikonversi, gunakan if/elif/else:
+#         jumlah negatif -> tampilkan "Jumlah tidak boleh negatif."
+#         jumlah nol -> tampilkan "Stok habis."
+#         jumlah positif -> tampilkan "Jumlah barang: <jumlah>"

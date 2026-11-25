@@ -1,26 +1,35 @@
-# Latihan 2.1 - Calculate a Student's GPA
+# Latihan 2.1 - Menentukan Nilai Mata Kuliah
 
-**Kasus:** Bagian akademik ingin menghitung IPK mahasiswa dari 4 mata kuliah.
+**Kasus:** Tentukan nilai huruf untuk satu mahasiswa berdasarkan nilai angka pada satu mata kuliah.
 
-| Nilai angka | Huruf | Bobot |
-|---|---|---|
-| 85 - 100 | A | 4.0 |
-| 75 - 84 | B | 3.0 |
-| 65 - 74 | C | 2.0 |
-| 50 - 64 | D | 1.0 |
-| < 50 | E | 0.0 |
-
-**IPK = jumlah(bobot x SKS) / total SKS**
+| Nilai angka | Huruf |
+|---|---|
+| 85 - 100 | A |
+| 75 - 84 | B |
+| 65 - 74 | C |
+| 50 - 64 | D |
+| < 50 | E |
 
 ## Langkah
-1. Data mata kuliah sudah tersedia di `latihan.py` (nilai masih berupa teks).
-2. Ubah setiap nilai menjadi bobot.
-3. Hitung IPK dan bulatkan 2 desimal.
-4. Tampilkan umur mahasiswa dari tanggal lahir (date data type).
-5. Predikat: >= 3.5 Cum Laude, >= 3.0 Sangat Memuaskan, >= 2.5 Memuaskan, selainnya Cukup.
+1. Minta nama mahasiswa, mata kuliah, dan nilai angka menggunakan `input()`.
+2. Ingat, hasil `input()` bertipe teks. Ubah nilai angka menjadi `float()`.
+3. Gunakan `if`, `elif`, dan `else` untuk menentukan nilai huruf.
+4. Tampilkan nama mahasiswa, mata kuliah, nilai angka, dan nilai huruf.
+
+**Catatan:** Kerjakan untuk satu nilai saja. Tidak perlu menggunakan `for`.
 
 ## Target
+Contoh masukan:
 ```
-IPK       : 3.30
-Predikat  : Sangat Memuaskan
+Siti Rahma
+Algoritma
+82
+```
+
+Contoh hasil:
+```
+Mahasiswa : Siti Rahma
+Mata kuliah: Algoritma
+Nilai     : 82.0
+Nilai huruf: B
 ```
