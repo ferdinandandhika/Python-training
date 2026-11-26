@@ -26,14 +26,14 @@ Prinsipnya: **demo singkat, lalu langsung praktik**. Setiap folder latihan beris
 |---|---|---|---|
 | 1 | Setup, Output, String | Hello App, Greeting, String Lab | Struk sederhana |
 | 2 | Tipe Data, Error, Kondisi | GPA, Error Lab, Rock Paper Scissors, Struk Web | Validasi input + diskon + struk Web |
-| 3 | Collection, Loop, Function | For Loop, List Basics, Guess Number, Calculator | Keranjang belanja |
+| 3 | Collection, Loop, Function | For Loop, List Basics, Guess Number, Calculator, TokoKu Web | Keranjang belanja + struk Web |
 | 4 | **OOP**, Module, Package, File | Class, Encapsulation, Inheritance, Package, File Lab, To-Do OOP | Class Produk + Keranjang, simpan ke CSV |
-| 5 | API, JSON, **ABC + Dataclass**, Data | Kurs API, Decorator, Pembayaran OOP, Pandas, Matplotlib, Real Data | TokoKu Final OOP + unit test |
+| 5 | API, JSON, **ABC + Dataclass**, Data | Kurs API, Decorator, Pembayaran OOP, Pandas, Matplotlib, Real Data | TokoKu Final Web + OOP + unit test |
 
 ## Di mana OOP diajarkan?
 - **Day 4 pagi:** class, object, encapsulation (`@property`), inheritance, polymorphism.
 - **Day 4 sore:** composition dan dunder method di proyek TokoKu, To-Do List berbasis class.
 - **Day 5:** abstract class (ABC) dan `@dataclass` untuk metode pembayaran,
-  lalu TokoKu Final ditulis sebagai package berbasis class lengkap dengan unit test.
+  lalu TokoKu Final dikembangkan menjadi aplikasi web lokal berbasis package dengan unit test.
 
 Semua data di paket ini adalah data dummy untuk pelatihan.

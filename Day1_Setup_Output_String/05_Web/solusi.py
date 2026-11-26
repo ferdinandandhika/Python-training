@@ -1,6 +1,6 @@
 # Solusi 1.5 - Struk TokoKu versi HTML
-import webbrowser
-from pathlib import Path
+import webbrowser  # Impor modul untuk membuka halaman HTML yang dibuat menggunakan browser bawaan komputer.
+from pathlib import Path  # Impor Path untuk menyusun dan mengelola alamat file secara lintas sistem operasi.
 
 # ===================== TEMPLATE (JANGAN DIUBAH) =====================
 TEMPLATE = """<!DOCTYPE html>
@@ -29,34 +29,34 @@ TEMPLATE = """<!DOCTYPE html>
   <p>Terima kasih, __NAMA__!</p>
 </div>
 </body>
-</html>"""
+</html>"""  # Simpan templat HTML dan CSS lengkap sebagai teks; bagian __...__ akan diganti dengan data struk.
 # ====================================================================
 
 # TODO 1: input
-nama = input("Nama pelanggan : ").strip().title()
-menu = input("Menu           : ").strip().title()
-harga = int(input("Harga          : "))
-jumlah = int(input("Jumlah         : "))
+nama = input("Nama pelanggan : ").strip().title()  # Minta nama pelanggan, rapikan spasi tepi, dan ubah awal kata menjadi kapital.
+menu = input("Menu           : ").strip().title()  # Minta nama menu, rapikan spasi tepi, dan samakan kapitalisasinya.
+harga = int(input("Harga          : "))  # Minta harga sebagai teks lalu ubah menjadi bilangan bulat untuk operasi hitung.
+jumlah = int(input("Jumlah         : "))  # Minta jumlah barang lalu ubah menjadi bilangan bulat agar dapat dikalikan.
 
 # TODO 2: hitung total
-total = harga * jumlah
+total = harga * jumlah  # Kalikan harga dan jumlah untuk memperoleh total belanja sebelum dimasukkan ke struk.
 
 
 # TODO 3: format Rupiah
-def rupiah(angka):
-    return "Rp " + f"{angka:,}".replace(",", ".")
+def rupiah(angka):  # Sediakan fungsi pemformat agar harga dan total memakai tampilan Rupiah yang sama.
+    return "Rp " + f"{angka:,}".replace(",", ".")  # Beri pemisah ribuan pada angka, ubah koma menjadi titik, dan tambahkan awalan Rp.
 
 
 # TODO 4: isi template
-html = TEMPLATE
-html = html.replace("__NAMA__", nama)
-html = html.replace("__MENU__", menu)
-html = html.replace("__HARGA__", rupiah(harga))
-html = html.replace("__JUMLAH__", str(jumlah))
-html = html.replace("__TOTAL__", rupiah(total))
+html = TEMPLATE  # Salin teks templat ke variabel kerja agar nilai templat asli tetap tersedia.
+html = html.replace("__NAMA__", nama)  # Ganti penanda nama pelanggan di dalam HTML dengan nama yang dimasukkan.
+html = html.replace("__MENU__", menu)  # Ganti penanda menu di dalam HTML dengan nama menu pesanan.
+html = html.replace("__HARGA__", rupiah(harga))  # Ganti penanda harga dengan harga yang sudah diformat sebagai Rupiah.
+html = html.replace("__JUMLAH__", str(jumlah))  # Ganti penanda jumlah dengan teks dari jumlah barang.
+html = html.replace("__TOTAL__", rupiah(total))  # Ganti penanda total dengan total belanja yang sudah diformat sebagai Rupiah.
 
 # ========== BAGIAN INI SUDAH JADI: simpan dan buka di browser ==========
-file = Path(__file__).parent / "struk.html"
-file.write_text(html, encoding="utf-8")
-print("Struk tersimpan di", file)
-webbrowser.open(file.as_uri())
+file = Path(__file__).parent / "struk.html"  # Buat alamat file struk.html di folder yang sama dengan skrip ini.
+file.write_text(html, encoding="utf-8")  # Tulis HTML yang sudah diisi ke file dengan encoding UTF-8 agar karakter tersimpan benar.
+print("Struk tersimpan di", file)  # Beri tahu pengguna lokasi file HTML yang baru disimpan.
+webbrowser.open(file.as_uri())  # Ubah alamat file menjadi URI lalu minta browser membukanya untuk menampilkan struk.

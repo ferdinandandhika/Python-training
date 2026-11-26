@@ -1,14 +1,11 @@
-# Latihan 5.1 - Calling an API, Processing JSON, Managing Keys
+# Latihan 5.1 - Konverter Rupiah ke USD
 
-**Kasus:** TokoKu menerima turis asing. Kasir ingin tahu harga dalam USD, SGD, dan JPY.
+**Kasus:** Pengguna ingin mengubah nominal rupiah ke USD.
 
-1. Panggil `https://open.er-api.com/v6/latest/IDR` dengan `requests.get(url, timeout=10)`.
-2. Cek `status_code` dan isi JSON (`response.json()`).
-3. Ambil kurs USD, SGD, JPY dari key `rates`.
-4. Konversikan harga menu ke mata uang tersebut.
-5. Bila internet mati, pakai cadangan `kurs_cadangan.json`.
+1. Minta pengguna memasukkan nominal rupiah.
+2. Ambil kurs USD dari API dan baca data JSON pada bagian `rates`.
+3. Kalikan nominal rupiah dengan kurs USD.
+4. Jika API tidak bisa diakses, gunakan kurs dari `kurs_cadangan.json`.
 
-## Managing Keys
-1. Salin `.env.example` menjadi `.env`, isi `TOKOKU_API_KEY=...`.
-2. Baca dengan `os.getenv("TOKOKU_API_KEY")` setelah `load_dotenv()`.
-3. **Jangan pernah** menulis key di kode atau meng-upload `.env` ke GitHub.
+API ini tidak memerlukan API key. Fokus latihan adalah input, mengambil data API,
+membaca JSON, dan konversi ke USD.

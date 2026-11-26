@@ -35,4 +35,13 @@ dan disusun sebagai **package** `tokoku_oop`.
 3. Jalankan `python solusi.py`: beli 2 Kopi Susu Aren ukuran L dan 3 Cheesecake.
 4. Buka `transaksi.csv` di Excel.
 
+## Antarmuka Web Lokal
+Proyek ini juga menyediakan antarmuka browser di `web_app.py`. Jalankan:
+```
+python web_app.py
+```
+Browser membuka `http://127.0.0.1:8000`. Pilih **1. Transaksi baru** atau **2. Laporan penjualan** lewat tombol, lalu isi form dan pilih barang dari daftar bernomor. Tidak perlu mengetik perintah seperti `baru` atau `laporan`.
+
+Transaksi Web menggunakan package dan file `transaksi.csv` yang sama. Ini aplikasi lokal untuk latihan, bukan situs yang dipublikasikan di internet; server berhenti dengan `Ctrl+C` di terminal.
+
 Besok (Day 5) TokoKu ditambah metode pembayaran, laporan Pandas, grafik, kurs API, dan unit test.

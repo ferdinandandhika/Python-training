@@ -1,12 +1,10 @@
-# Latihan 5.2 - Using Decorators
+# Latihan 5.2 - Decorator Sederhana
 
-**Kasus:** Manajer ingin tahu berapa lama fungsi berjalan dan siapa yang memanggilnya,
-tanpa mengubah isi fungsi.
+Buat decorator yang menampilkan pesan sebelum dan sesudah sebuah fungsi dijalankan.
 
-1. Pelajari decorator `@catat_waktu` yang sudah jadi.
-2. Lengkapi `@log_aktivitas` (tulis nama fungsi dan argumen ke `aktivitas.log`).
-3. Lengkapi `@hanya_admin` (tolak bila `peran != "admin"`).
-4. Pasang ketiganya pada `hapus_transaksi()`.
+1. Buat fungsi pembungkus di dalam decorator.
+2. Panggil fungsi asli dari dalam pembungkus.
+3. Pasang decorator pada `tampilkan_laporan()`.
+4. Jalankan program dan perhatikan urutan pesannya.
 
-**Hubungan dengan OOP:** `@property` (Day 4), `@classmethod`, `@staticmethod`, `@dataclass`,
-dan `@abstractmethod` (latihan berikutnya) juga decorator.
+Fokus latihan ini hanya memahami cara decorator membungkus fungsi.

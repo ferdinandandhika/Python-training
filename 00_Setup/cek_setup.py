@@ -11,7 +11,7 @@ print(f"[{status}] Python {versi.major}.{versi.minor}.{versi.micro}")
 print(f"[INFO] Lokasi Python: {sys.executable}")
 dalam_venv = sys.prefix != sys.base_prefix
 print(f"[{'OK' if dalam_venv else 'INFO'}] Virtual environment aktif: {dalam_venv}")
-for lib in ["numpy", "pandas", "matplotlib", "requests", "dotenv"]:
+for lib in ["numpy", "pandas", "matplotlib", "requests"]:
     ada = importlib.util.find_spec(lib) is not None
     print(f"[{'OK' if ada else 'BELUM'}] library {lib}")
 print("-" * 45)

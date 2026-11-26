@@ -1,13 +1,14 @@
-# Latihan 5.6 - Examine Real World Data
+# Latihan 5.6 - Membersihkan Data Penjualan
 
-File `../data/penjualan_cabang_kotor.csv` diisi manual oleh cabang dan penuh masalah:
-nama cabang tidak konsisten, qty kosong, total berisi `-`, format tanggal campur,
-rating kosong, dan baris duplikat.
+File `../data/penjualan_cabang_kotor.csv` berisi nama cabang yang penulisannya
+belum rapi, angka yang kosong atau berupa tanda `-`, dan beberapa baris duplikat.
 
-1. **Inspeksi:** `info()`, `isna().sum()`, `duplicated().sum()`, `unique()`.
-2. **Bersihkan:** `str.strip().str.title()`, `pd.to_numeric(errors="coerce")`,
-   `pd.to_datetime(format="mixed", dayfirst=True)`, isi qty dan total yang kosong,
-   rating diisi median, `drop_duplicates()`.
-3. **Validasi:** tidak ada nilai kosong tersisa.
-4. **Analisis:** omzet per cabang dan per bulan, lalu buat 1 grafik.
-5. **Simpan:** `output/penjualan_bersih.csv`, tulis 3 insight di `INSIGHT.md`.
+1. Baca kolom transaksi, cabang, jumlah, harga, dan total dari file CSV.
+2. Rapikan nama cabang dengan `str.strip()` dan `str.title()`.
+3. Ubah kolom jumlah, harga, dan total menjadi angka menggunakan
+   `pd.to_numeric(errors="coerce")`.
+4. Hapus baris duplikat dan baris yang tidak memiliki angka transaksi.
+5. Hitung total penjualan setiap cabang dan simpan data bersih ke
+   `output/penjualan_bersih.csv`.
+
+Terakhir, tulis satu kalimat di `INSIGHT.md` tentang cabang dengan penjualan tertinggi.

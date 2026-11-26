@@ -1,39 +1,56 @@
-# Latihan 5.3 - Abstract Class dan Dataclass
+# Latihan 5.3 - ABC dan Dataclass
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 
 
 @dataclass
 class HasilBayar:
-    # TODO 1: metode: str, total: int, dibayar: int = 0, kembalian: int = 0,
-    #         biaya: float = 0, berhasil: bool = True, pesan: str = "OK"
-    pass
+    metode: str
+    total: int
+    berhasil: bool
+    pesan: str
 
 
 class MetodePembayaran(ABC):
-    nama = "Pembayaran"
-
     @abstractmethod
     def proses(self, total):
-        """Wajib dibuat ulang oleh setiap class turunan."""
+        pass
 
 
 class Tunai(MetodePembayaran):
-    nama = "Tunai"
-
     def __init__(self, uang_diterima):
         self.uang_diterima = uang_diterima
 
     def proses(self, total):
-        pass  # TODO 2: gagal bila uang kurang, berhasil dengan kembalian bila cukup
+        # TODO 1: jika uang cukup, kembalikan hasil berhasil.
+        # Jika kurang, kembalikan hasil gagal dengan pesan yang sesuai.
+        pass
 
 
 class QRIS(MetodePembayaran):
-    pass  # TODO 3: biaya 0.7% dari total, berhasil, dibayar = total
+    def proses(self, total):
+        # TODO 2: kembalikan hasil berhasil dengan pesan bahwa QRIS hanya simulasi.
+        pass
 
 
-class KartuDebit(MetodePembayaran):
-    pass  # TODO 4: __init__(pin); gagal bila pin bukan 6 digit atau total > 5.000.000
+def main():
+    total = int(input("Masukkan total belanja: Rp"))
+    print("1. Tunai")
+    print("2. QRIS (simulasi)")
+    pilihan = input("Pilih metode pembayaran: ").strip()
 
-# TODO 5: coba MetodePembayaran() di dalam try/except TypeError
-# TODO 6: jalankan 6 skenario dan print hasilnya
+    if pilihan == "1":
+        uang_diterima = int(input("Masukkan uang yang diterima: Rp"))
+        metode = Tunai(uang_diterima)
+    elif pilihan == "2":
+        metode = QRIS()
+    else:
+        print("Pilihan tidak tersedia.")
+        return
+
+    hasil = metode.proses(total)
+    print("Status:", "Berhasil" if hasil.berhasil else "Gagal")
+    print(hasil.pesan)
+
+
+main()

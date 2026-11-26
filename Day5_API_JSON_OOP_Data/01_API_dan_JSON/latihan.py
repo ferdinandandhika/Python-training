@@ -1,17 +1,26 @@
 # Latihan 5.1 - Kurs dari API
 import json
-import os
 from pathlib import Path
 
 import requests
 
 URL = "https://open.er-api.com/v6/latest/IDR"
 CADANGAN = Path(__file__).parent / "kurs_cadangan.json"
-MENU = {"Kopi Susu Aren": 25000, "Matcha Latte": 28000, "Cheesecake": 32000}
+jumlah_idr = int(input("Masukkan jumlah dalam rupiah: "))
 
-# TODO 1: from dotenv import load_dotenv; load_dotenv(); baca os.getenv("TOKOKU_API_KEY"),
-#         tampilkan 4 karakter awal saja
-# TODO 2: requests.get(URL, timeout=10) di dalam try/except requests.RequestException
-# TODO 3: bila gagal, baca CADANGAN dengan json.load
-# TODO 4: ambil rates USD, SGD, JPY
-# TODO 5: tampilkan tabel harga menu dalam IDR, USD, SGD, JPY
+try:
+    response = requests.get(URL, timeout=10)
+    response.raise_for_status()
+    data = response.json()
+    # TODO 1: ambil kurs USD dari data["rates"].
+    kurs_usd = 0
+    sumber = "API online"
+except (requests.RequestException, ValueError, KeyError):
+    print("API tidak bisa diakses. Menggunakan data cadangan.")
+    with open(CADANGAN, encoding="utf-8") as file:
+        data = json.load(file)
+    # TODO 2: ambil kurs USD dari data cadangan.
+    kurs_usd = 0
+    sumber = "data cadangan"
+
+# TODO 3: hitung jumlah USD dan tampilkan sumber kurs, jumlah IDR, dan jumlah USD.

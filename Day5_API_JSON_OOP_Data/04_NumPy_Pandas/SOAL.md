@@ -1,14 +1,16 @@
-# Latihan 5.4 - Explore Data with NumPy and Pandas
+# Latihan 5.4 - NumPy dan Pandas Dasar
 
-**Data:** `../data/penjualan_tokoku.csv` (1.200 transaksi, Januari - Juni 2026)
+Gunakan contoh angka dan data penjualan TokoKu.
 
-## Bagian A - NumPy (15 menit)
-1. Array qty `[2, 5, 1, 3, 4]` dan harga `[25000, 22000, 28000, 18000, 32000]`.
-2. Total per item tanpa loop (`qty * harga`), lalu sum, mean, max, std.
-3. Filter item dengan total di atas 80.000.
+## NumPy
+1. Buat array jumlah barang dan harga.
+2. Kalikan kedua array untuk mendapatkan total setiap barang.
+3. Tampilkan jumlah seluruh harga barang.
 
-## Bagian B - Pandas: jawab pertanyaan bisnis
-1. Jumlah baris dan kolom?  2. Total omzet?  3. Cabang omzet tertinggi?
-4. Menu paling laku (qty)?  5. Rata-rata transaksi per channel?
-6. Bulan omzet tertinggi?  7. Persen transaksi member?
-8. Simpan omzet per cabang ke `output/omzet_cabang.csv`.
+## Pandas
+1. Baca `../data/penjualan_tokoku.csv`.
+2. Tampilkan lima baris pertama dan ukuran data.
+3. Hitung total penjualan.
+4. Tampilkan total penjualan untuk setiap cabang.
+
+Fokus latihan adalah membuat array, membaca tabel, dan melakukan perhitungan sederhana.

@@ -1,7 +1,5 @@
 # Insight Saya
 
-1. Insight pertama (sertakan angka):
+Setelah menjalankan `solusi.py`, lihat total penjualan per cabang.
 
-2. Insight kedua:
-
-3. Rekomendasi untuk manajer TokoKu:
+Cabang dengan penjualan tertinggi adalah __________ dengan total Rp__________.

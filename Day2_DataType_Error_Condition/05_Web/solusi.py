@@ -1,7 +1,7 @@
 # Solusi 2.5 - TokoKu Day 2 versi Web
-from html import escape
-import webbrowser
-from pathlib import Path
+from html import escape  # Mengimpor fungsi escape untuk mengamankan teks pelanggan saat dimasukkan ke HTML.
+import webbrowser  # Mengimpor modul untuk membuka struk HTML di peramban bawaan.
+from pathlib import Path  # Mengimpor Path agar lokasi dan berkas struk ditangani dengan cara lintas platform.
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="id">
@@ -90,67 +90,67 @@ TEMPLATE = """<!DOCTYPE html>
   <p class="terima-kasih">Terima kasih, __NAMA__!</p>
 </main>
 </body>
-</html>"""
+</html>"""  # Menyimpan kerangka HTML/CSS struk beserta penanda yang nanti diganti dengan data transaksi.
 
-nama = input("Nama pelanggan: ").strip().title()
-print("\nMenu TokoKu")
-print("1. Kopi Susu Aren - Rp 25.000")
-print("2. Matcha Latte    - Rp 28.000")
-print("3. Croissant       - Rp 18.000")
-pilihan_teks = input("Pilih nomor menu: ")
-jumlah_teks = input("Jumlah: ")
+nama = input("Nama pelanggan: ").strip().title()  # Meminta nama pelanggan, membersihkan spasi tepi, dan merapikan kapitalisasi.
+print("\nMenu TokoKu")  # Menampilkan judul daftar menu dengan baris kosong sebelumnya.
+print("1. Kopi Susu Aren - Rp 25.000")  # Menampilkan pilihan menu pertama dan harganya.
+print("2. Matcha Latte    - Rp 28.000")  # Menampilkan pilihan menu kedua dan harganya.
+print("3. Croissant       - Rp 18.000")  # Menampilkan pilihan menu ketiga dan harganya.
+pilihan_teks = input("Pilih nomor menu: ")  # Meminta nomor pilihan menu sebagai teks untuk dikonversi kemudian.
+jumlah_teks = input("Jumlah: ")  # Meminta jumlah barang sebagai teks untuk dikonversi kemudian.
 
-try:
-    pilihan_menu = int(pilihan_teks)
-    jumlah = int(jumlah_teks)
-except ValueError:
-    print("Pilihan menu dan jumlah harus berupa angka bulat.")
-else:
-    menu_valid = True
-    if pilihan_menu == 1:
-        menu = "Kopi Susu Aren"
-        harga = 25_000
-    elif pilihan_menu == 2:
-        menu = "Matcha Latte"
-        harga = 28_000
-    elif pilihan_menu == 3:
-        menu = "Croissant"
-        harga = 18_000
-    else:
-        menu_valid = False
-        print("Pilihan menu tidak tersedia.")
+try:  # Mencoba mengubah nomor pilihan dan jumlah menjadi angka bulat.
+    pilihan_menu = int(pilihan_teks)  # Mengubah nomor menu menjadi bilangan bulat agar dapat dicocokkan.
+    jumlah = int(jumlah_teks)  # Mengubah jumlah pesanan menjadi bilangan bulat.
+except ValueError:  # Menangani masukan yang tidak dapat diubah menjadi bilangan bulat.
+    print("Pilihan menu dan jumlah harus berupa angka bulat.")  # Menjelaskan bahwa setidaknya satu masukan bukan bilangan bulat.
+else:  # Memeriksa dan memproses transaksi hanya setelah kedua konversi berhasil.
+    menu_valid = True  # Menganggap pilihan valid dahulu, lalu akan mengubahnya jika nomor tidak dikenal.
+    if pilihan_menu == 1:  # Memeriksa apakah pelanggan memilih menu pertama.
+        menu = "Kopi Susu Aren"  # Menyimpan nama menu pertama untuk perhitungan dan struk.
+        harga = 25_000  # Menyimpan harga menu pertama dalam satuan rupiah.
+    elif pilihan_menu == 2:  # Memeriksa pilihan menu kedua jika pilihan pertama tidak cocok.
+        menu = "Matcha Latte"  # Menyimpan nama menu kedua untuk perhitungan dan struk.
+        harga = 28_000  # Menyimpan harga menu kedua dalam satuan rupiah.
+    elif pilihan_menu == 3:  # Memeriksa pilihan menu ketiga jika dua pilihan sebelumnya tidak cocok.
+        menu = "Croissant"  # Menyimpan nama menu ketiga untuk perhitungan dan struk.
+        harga = 18_000  # Menyimpan harga menu ketiga dalam satuan rupiah.
+    else:  # Menangani nomor pilihan yang tidak sama dengan menu mana pun.
+        menu_valid = False  # Menandai bahwa nomor menu tidak cocok dengan pilihan yang tersedia.
+        print("Pilihan menu tidak tersedia.")  # Memberi tahu pelanggan bahwa nomor tersebut tidak ada pada daftar.
 
-    if menu_valid:
-        if jumlah <= 0:
-            print("Jumlah harus lebih dari nol.")
-        else:
-            subtotal = harga * jumlah
-            if subtotal >= 200_000:
-                persen_diskon = 0.15
-            elif subtotal >= 100_000:
-                persen_diskon = 0.10
-            else:
-                persen_diskon = 0
+    if menu_valid:  # Melanjutkan transaksi hanya jika nomor menu berhasil dikenali.
+        if jumlah <= 0:  # Menolak jumlah nol atau negatif karena pesanan harus berisi barang.
+            print("Jumlah harus lebih dari nol.")  # Menjelaskan syarat jumlah minimum kepada pelanggan.
+        else:  # Menghitung dan membuat struk hanya untuk jumlah pesanan yang positif.
+            subtotal = harga * jumlah  # Mengalikan harga per barang dengan jumlah untuk mendapatkan subtotal.
+            if subtotal >= 200_000:  # Memeriksa ambang diskon tertinggi terlebih dahulu.
+                persen_diskon = 0.15  # Menetapkan diskon 15 persen untuk subtotal minimal 200.000.
+            elif subtotal >= 100_000:  # Memeriksa ambang diskon berikutnya jika ambang tertinggi tidak tercapai.
+                persen_diskon = 0.10  # Menetapkan diskon 10 persen untuk subtotal minimal 100.000.
+            else:  # Menetapkan nol persen jika subtotal belum memenuhi ambang diskon.
+                persen_diskon = 0  # Tidak memberi diskon jika subtotal di bawah kedua ambang.
 
-            diskon = round(subtotal * persen_diskon)
-            setelah_diskon = subtotal - diskon
-            pajak = round(setelah_diskon * 0.11)
-            total = setelah_diskon + pajak
+            diskon = round(subtotal * persen_diskon)  # Menghitung nominal diskon lalu membulatkannya menjadi rupiah bulat.
+            setelah_diskon = subtotal - diskon  # Menghitung sisa pembayaran setelah diskon dikurangi.
+            pajak = round(setelah_diskon * 0.11)  # Menghitung pajak 11 persen dari nilai setelah diskon dan membulatkannya.
+            total = setelah_diskon + pajak  # Menjumlahkan sisa pembayaran dan pajak untuk memperoleh total transaksi.
 
-            html = TEMPLATE
-            html = html.replace("__MENU__", menu)
-            html = html.replace("__HARGA__", f"Rp {harga:,.0f}".replace(",", "."))
-            html = html.replace("__JUMLAH__", str(jumlah))
-            html = html.replace("__SUBTOTAL__", f"Rp {subtotal:,.0f}".replace(",", "."))
+            html = TEMPLATE  # Menyalin kerangka HTML agar penanda dapat diisi tanpa mengubah template aslinya.
+            html = html.replace("__MENU__", menu)  # Mengganti penanda nama menu dengan nama menu yang dipilih.
+            html = html.replace("__HARGA__", f"Rp {harga:,.0f}".replace(",", "."))  # Mengisi harga yang sudah diformat sebagai rupiah dengan titik ribuan.
+            html = html.replace("__JUMLAH__", str(jumlah))  # Mengganti penanda jumlah dengan teks dari angka pesanan.
+            html = html.replace("__SUBTOTAL__", f"Rp {subtotal:,.0f}".replace(",", "."))  # Mengisi subtotal dengan format rupiah tanpa desimal.
             html = html.replace(
                 "__PERSEN_DISKON__", f"{persen_diskon:.0%}"
-            )
-            html = html.replace("__DISKON__", f"Rp {diskon:,.0f}".replace(",", "."))
-            html = html.replace("__PAJAK__", f"Rp {pajak:,.0f}".replace(",", "."))
-            html = html.replace("__TOTAL__", f"Rp {total:,.0f}".replace(",", "."))
-            html = html.replace("__NAMA__", escape(nama))
+            )  # Mengganti penanda persentase diskon dengan persentase tanpa angka desimal.
+            html = html.replace("__DISKON__", f"Rp {diskon:,.0f}".replace(",", "."))  # Mengisi nominal diskon dengan format rupiah.
+            html = html.replace("__PAJAK__", f"Rp {pajak:,.0f}".replace(",", "."))  # Mengisi nominal pajak dengan format rupiah.
+            html = html.replace("__TOTAL__", f"Rp {total:,.0f}".replace(",", "."))  # Mengisi total akhir pembayaran dengan format rupiah.
+            html = html.replace("__NAMA__", escape(nama))  # Mengamankan teks nama lalu mengganti semua penanda nama pada HTML.
 
-            file = (Path(__file__).parent / "struk.html").resolve()
-            file.write_text(html, encoding="utf-8")
-            print("Struk tersimpan di", file)
-            webbrowser.open(file.as_uri())
+            file = (Path(__file__).parent / "struk.html").resolve()  # Menentukan lokasi struk di folder skrip lalu memperoleh path absolut.
+            file.write_text(html, encoding="utf-8")  # Menulis HTML yang telah diisi ke berkas dengan pengodean UTF-8.
+            print("Struk tersimpan di", file)  # Menampilkan lokasi penyimpanan agar pengguna dapat menemukannya.
+            webbrowser.open(file.as_uri())  # Membuka berkas struk menggunakan URL lokal di peramban bawaan.
